@@ -1,0 +1,4 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+livres		TAR	1424	nouvelle taille enregistrement : 1424
+livres	emplacement	RUB+		emplacement est une nouvelle rubrique
+livres	date_sortie	RUB-		la rubrique date_sortie est supprimée

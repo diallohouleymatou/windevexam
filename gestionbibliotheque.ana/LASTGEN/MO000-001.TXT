@@ -1,0 +1,21 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+auteurs		NFI		nouveau fichier
+editeurs		NFI		nouveau fichier
+categories		NFI		nouveau fichier
+livres		NFI		nouveau fichier
+adherants		NFI		nouveau fichier
+emprunts		NFI		nouveau fichier
+emprunts_livres		NFI		nouveau fichier
+mouvements		NFI		nouveau fichier
+mouvements_livres		NFI		nouveau fichier
+utilisateurs		NFI		nouveau fichier
+Contrainte_categories_livres		NWL	categories (IDcategories) et livres (IDcategories)	Nouvelle liaison entre les fichiers categories (IDcategories) et livres (IDcategories)
+Contrainte_editeurs_livres		NWL	editeurs (IDediteurs) et livres (IDediteurs)	Nouvelle liaison entre les fichiers editeurs (IDediteurs) et livres (IDediteurs)
+Contrainte_auteurs_livres		NWL	auteurs (IDauteur) et livres (IDauteur)	Nouvelle liaison entre les fichiers auteurs (IDauteur) et livres (IDauteur)
+Contrainte_adherants_emprunts		NWL	adherants (IDadherants) et emprunts (IDadherants)	Nouvelle liaison entre les fichiers adherants (IDadherants) et emprunts (IDadherants)
+Contrainte_emprunts_livres_emprunts		NWL	emprunts (IDemprunts) et emprunts_livres (IDemprunts)	Nouvelle liaison entre les fichiers emprunts (IDemprunts) et emprunts_livres (IDemprunts)
+Contrainte_livres_emprunts_livres		NWL	livres (IDlivres) et emprunts_livres (IDlivres)	Nouvelle liaison entre les fichiers livres (IDlivres) et emprunts_livres (IDlivres)
+Contrainte_mouvements_livres_livres		NWL	livres (IDlivres) et mouvements_livres (IDlivres)	Nouvelle liaison entre les fichiers livres (IDlivres) et mouvements_livres (IDlivres)
+Contrainte_mouvements_mouvements_livres		NWL	mouvements (IDmouvements) et mouvements_livres (IDmouvements)	Nouvelle liaison entre les fichiers mouvements (IDmouvements) et mouvements_livres (IDmouvements)
+Contrainte_utilisateurs_emprunts		NWL	utilisateurs (IDutilisateurs) et emprunts (IDutilisateurs)	Nouvelle liaison entre les fichiers utilisateurs (IDutilisateurs) et emprunts (IDutilisateurs)
+auteurs		FRN		

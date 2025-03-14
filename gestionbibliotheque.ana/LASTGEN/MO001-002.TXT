@@ -1,0 +1,5 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+livres		TAR	1332	nouvelle taille enregistrement : 1332
+livres	ISBN	RUB+		ISBN est une nouvelle clé
+adherants		TAR	331	nouvelle taille enregistrement : 331
+adherants	profession	RUB+		profession est une nouvelle rubrique
